@@ -830,3 +830,86 @@ background-color: #0010F2;
     }
   }
   
+
+
+ /* youtube logo */
+ .youtube-icon-group .youtube-icon,
+.youtube-icon-group .youtube-outline,
+.youtube-icon-group .youtube-inner-circle {
+  transition: 300ms all;
+  transform-origin: 50% 50%;
+}
+.youtube-icon-group:hover .youtube-outline {
+  transform: scale(1.2);
+}
+.youtube-icon-group:hover .youtube-inner-circle {
+  fill: #f26767;
+}
+.youtube-icon-group:hover .youtube-icon {
+  stroke: #fff;
+}
+
+
+/* button */
+
+.main{
+  width: 100%;
+}
+
+.sub-main{
+  width: 30%;
+  margin:22px;
+  float: left;
+}
+
+.button-one, .button-two, .button-three{
+  text-align: center;
+  cursor: pointer;
+  font-size:24px;
+  margin: 0 0 0 100px;
+}
+.button-two {
+  border-radius: 4px;
+  background-color:#0010F2;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* button pata nahi kon sai par hai  */
+
+.btn{
+  padding-top: 0.5rem;
+  padding-bottom: 00.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+} 
